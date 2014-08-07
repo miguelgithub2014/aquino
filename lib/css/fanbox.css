@@ -1,0 +1,49 @@
+
+#facebook_box {
+    position:fixed;
+    top:280px;
+    right:-250px;
+    float:right;
+    width:288px;
+    display:block;
+    padding:0;
+    z-index:1002;
+}
+#twitter_box {
+    position:fixed;
+    top:120px;
+    right:-250px;
+    float:right;
+    width:288px;
+    display:block;
+    padding:0;
+    z-index:1001;
+    border-radius:10px;
+}
+#frame_fb{
+    border:none; 
+    overflow:hidden; 
+    width:240px; 
+    height:320px;
+}
+div.likeboxwrap {
+    margin-top:-5px;
+    margin-left:-45px;
+    width:238px; 
+    height:325px;
+    background-color:#fff;
+    overflow:hidden;
+    border-radius:10px;
+}
+div.likeboxwrap iframe {margin:-1px}
+
+.img_fanbox{
+    float: left;
+}
+.div_fanbox{
+    background: #3c5a98; 
+    height:325px; 
+    margin-left:38px;
+    padding: 8px 5px 0pt 50px;
+    border-radius: 0px 0px 0px 10px;
+}

@@ -1,0 +1,327 @@
+/* Estilos del Main.css */
+
+@font-face {
+    font-family: 'GoodDogRegular';
+    src: url('../fonts/GoodDog-webfont.eot');
+    src: url('../fonts/GoodDog-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/GoodDog-webfont.woff') format('woff'),
+         url('../fonts/GoodDog-webfont.ttf') format('truetype'),
+         url('../fonts/GoodDog-webfont.svg#GoodDogRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Titillium';
+    src: url('../fonts/TitilliumText25L002-webfont.eot');
+    src: url('../fonts/TitilliumText25L002-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/TitilliumText25L002-webfont.woff') format('woff'),
+         url('../fonts/TitilliumText25L002-webfont.ttf') format('truetype'),
+         url('../fonts/TitilliumText25L002-webfont.svg#TitilliumText25L600wt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    background-color: #36648B;
+}
+caption{
+    padding-top: 0.5em;
+}
+#footer{
+    width: 100%;
+    border-top: 1px solid #000;
+    background: #171717;
+    margin-bottom: 2em;
+    border-radius: 0 0 10px 10px;
+}
+#footer, #footer a{
+    color: white;
+}
+#footer a:hover{
+    color: white;
+    text-decoration: underline;
+}
+#footer .divfooter{
+    display: inline-block;
+    vertical-align: top;
+    padding: 1em 3em;
+}
+#footer .titfooter{
+    color: rgb(255, 194, 0);
+    font-size: 20px;
+    padding-bottom: 1em;
+}
+#body {
+    background: url(../img/body.jpg)  top center repeat;
+    border-radius: 15px 15px 0 0;
+}
+#bodysistema {
+    background: url(../img/body.jpg)  top center repeat;
+    border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -o-border-radius: 10px 10px 0 0;
+    -ms-border-radius: 10px 10px 0 0;
+}
+#cont-sistema .navbar-inner{
+    border: none;
+    box-shadow: none;
+    min-height: 370px;
+}
+#contenido_web{
+    background: rgb(12, 89, 160);
+}
+#grilla{
+    padding: 0%;
+}
+#grilla th:hover{
+    cursor: pointer;
+}
+#grilla.grilla-min{
+    padding: 0 25%;
+}
+#lineblack{
+    width: 99.5%;
+    border: 3px solid black;
+}
+#lineblackmini{
+    width: 99.8%;
+    border: 1px solid black;
+}
+#linegrey {
+    width: 99.8%;
+    border: 1px solid grey;
+}
+#msg{
+    color:red;
+    font-size:14px;
+    font-weight:bold;
+}
+#titulo, #navbar #menu_info{
+    display: inline-block;
+    vertical-align: bottom;
+}
+#navbar #menu_info li{
+    font-size: 18px;
+}
+#navbar ul#menu_info{
+    margin-top: 2.5em;
+    margin-bottom: 0.5em;
+}
+#navbar2 #menu_info li a{
+    color: #333;
+}
+#menu_info li a {
+    height: 26px;
+    line-height: 23px;
+    padding: 0 20px 5px 15px;
+    margin: 0 7px 0 0;
+    font-size: 14px;
+    color: #333;	
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    outline: none;
+    text-shadow: none;
+}
+#menu_info li a:hover, #menu_info li a.current{
+    position: relative;
+    background: url(../img/mhr.png) no-repeat top right;
+}
+#menu_info li a:hover span, #menu_info li a.current span{
+    position: absolute;
+    width: 5px;
+    height: 26px;
+    top: 0;
+    left: -4px;
+    background: url(../img/mhl.png) no-repeat;
+}
+#navbar {
+}
+#navbar, #navbar2, #menu_sistema {
+    text-align: center;
+}
+#menu_sistema li{
+    text-align: justify;
+}
+#navbar2{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+    padding: 0;
+    margin: 0;
+    background: #333;
+    background: url(../img/body.jpg)  top center repeat;
+    z-index: 10000;
+}
+#navbar #titulo a, #navbar2 #titulo a{
+    text-decoration: none;
+    font: 60px/68px 'GoodDogRegular';
+    color: #36648B;
+    margin: 0;
+    padding: 0;
+    padding-right: 0.5em;
+}
+#navbar #titulo a{
+    font-size: 54px;
+}
+#navbar2 #titulo a{
+    font-size: 36px;
+}
+#navbar2 #menu_info li{
+    font-size: 16px;
+}
+#navbar2  ul#menu_info{
+    margin-top: 1.5em;
+}
+.menuinfo{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+}
+#buscar, #filtro {
+    margin-top: 10px;
+}
+.text-justify{
+    text-align: justify;
+}
+
+/* Grid */
+#controls, #perpage, #navigation, #text {
+    display: inline-block;
+    padding: 0 1.5em 1em 1.5em;
+}
+#perpage select {
+    width: 70px
+}
+#perpage span {
+    padding: 5px;
+}
+#navigation {
+    text-align:center
+}
+#navigation img {
+    cursor:pointer
+}
+
+/* Login Panel */
+#top {
+  	background: url(../img/login_top.jpg) repeat-x 0 0;
+	height: 38px;
+	position: relative;
+}
+
+#top ul.login {
+	display: block;
+	position: relative;
+  	float: right;
+  	clear: right;
+  	height: 38px;
+	width: auto;
+  	font-weight: bold;
+	line-height: 38px;
+	margin: 0;
+  	color: white;
+  	font-size: 80%;
+	text-align: center;
+  	background: url(../img/login_r.png) no-repeat right 0;
+	padding-right: 45px;
+}
+
+#top ul.login li.left {
+  	background: url(../img/login_l.png) no-repeat left 0;
+  	height: 38px;
+	width: 45px;
+	padding: 0;
+	margin: 0;
+  	display: block;
+	float: left;
+}
+
+#top ul.login li {
+ 	text-align: left;
+  	padding: 10px 6px 2px 6px;
+	display: block;
+	float: left;
+	height: 38px;
+  	background: url(../img/login_m.jpg) repeat-x 0 0;
+}
+
+#top ul.login li a {
+	color: #33CCCC;
+}
+
+#top ul.login li a:hover {
+	color: white;
+}
+/*Login*/
+/* toggle effect - show/hide login*/
+#login {
+	width: 100%;
+	color: white;
+	background: #1E1E1E;
+	overflow: hidden;
+	position: relative;
+	z-index: 3;
+        display: none;
+        margin: 0;
+}
+
+#login a {
+	text-decoration: none;
+	color: #33CCCC;
+}
+
+#login .loginContent {
+	width: 100%;
+        display: block;
+	margin: 0;
+	padding: 1em;
+	text-align: center;
+        padding-bottom: 0;
+        margin-bottom: -1em;
+}
+
+#login .loginContent div {
+        display: inline-block;
+        vertical-align: top;
+}
+
+#login .loginContent input.field {
+	border: 1px #1A1A1A solid;
+	background: #464646;
+	margin-right: 5px;
+	color: white;
+}
+
+#login .loginContent input:focus.field {
+	background: #545454;
+}
+
+#login .loginClose {
+	display: block;
+	position: absolute;
+	right: 15px;
+	top: 10px;
+	width: 50px;
+	font-size: 0.8em;
+	text-align: left;
+}
+
+#login .loginClose a {
+	display: block;
+	width: 100%;
+	height: 20px;
+	background: url(../img/button_close.jpg) no-repeat right 0;
+	padding-right: 10px;
+	border: none;
+	font-size: 0.9em;
+	color: white;
+}
+
+#login .loginClose a:hover {
+	background: url(../img/button_close.jpg) no-repeat right -20px;
+}
+

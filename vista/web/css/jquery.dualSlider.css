@@ -1,0 +1,158 @@
+/* CAROUSEL */
+
+.carousel{
+    margin: 1.5em auto;
+    position:relative;
+    height: 235px;
+    width: 82%;
+    overflow: hidden;
+}
+
+.carousel h2{
+	color: #fff;
+        font-size: 24px;
+}	
+
+
+.carousel .backgrounds{
+    height: 235px;
+}
+
+.carousel .backgrounds .item{
+    width: 960px;
+    height: 235px;
+    display: inline-block;
+    position:relative;
+    z-index:1;
+}
+
+.carousel .backgrounds .item_1{
+}
+
+.carousel .backgrounds .item_2{
+}
+
+.carousel .backgrounds .item_3{
+}
+
+.carousel .panel{
+    background: #1d1d1d;
+    color: #fff;
+    position:absolute;
+    right: 0;
+    top:0;
+    height: 235px;
+    width: 32%;
+    z-index:10;
+}
+
+.carousel .panel .paging{
+    position:absolute;
+    bottom: 25px;
+    left:25px;
+    width: 80%;    
+    text-align:center;   
+}
+
+.carousel .panel .paging a{
+    color: #4c4c4c;
+    font-size: 1.1em;
+}
+
+.carousel .panel .pause{
+    position:absolute;
+    right:20px;
+    top:25px;
+    display:block;
+    width: 18px;
+    height: 18px;
+    background: transparent url(../img/carousel_pause_bg.gif) no-repeat 0 0;
+    text-indent: -6000px;
+}
+
+.carousel .panel .play{
+    position:absolute;
+    right:20px;
+    top:25px;
+    display:block;
+    width: 18px;
+    height: 18px;
+    background: transparent url(../img/carousel_play_bg.gif) no-repeat 0 0;
+    text-indent: -6000px;
+}
+
+
+.carousel .panel .paging .next{
+    position:absolute;
+    right:0;
+    bottom:0;
+    display:block;
+    width: 18px;
+    height: 18px;
+    background: transparent url(../img/carousel_next_bg.gif) no-repeat 0 0;
+    text-indent: -6000px;
+}
+
+.carousel .panel .paging .previous{
+    position:absolute;
+    left:0;
+    bottom:0;
+    display:block;
+    width: 18px;
+    height: 18px;
+    background: transparent url(../img/carousel_previous_bg.gif) no-repeat 0 0;
+    text-indent: -6000px;
+}
+
+.carousel .panel .paging #numbers a {
+	color: #666;
+    padding: 0 5px 0 5px;
+}
+
+.carousel .panel .paging #numbers a.selected {
+    color: #fff;
+}
+
+
+
+.carousel .panel .details_wrapper {
+    position:absolute;
+    top:20px;
+    left:25px;
+    width: 225px;
+    overflow:hidden;
+    height: 200px;
+}
+
+.carousel .panel .details_wrapper .details{
+    height: 200px;
+}
+
+.carousel .panel .details_wrapper .details .detail{
+    width: 225px;
+    height: 200px;
+    float:left;
+    
+}
+
+.carousel .panel .details_wrapper .details h2{
+    font-size: 1.9em;
+    line-height: 1.2em;
+    margin: 0 0 5px 0;
+	color: #fff;
+        font-size: 24px;
+}
+
+.carousel .panel .details_wrapper .details h2 a {
+	color: #fff;
+}
+
+.carousel .panel .details_wrapper .details p {
+	color: #ccc;
+}
+
+.carousel .panel .details_wrapper .details a.more{
+    font-size:1.1em;
+}   
+
+/* END CAROUSEL */
